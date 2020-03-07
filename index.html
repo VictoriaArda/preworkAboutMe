@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html lang="en-us">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Victoria's Marketting</title>
+   </head>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" href="style.css">
+   <body>
+      <div class="top-container">
+         <img class="top-cloud" src="images/cloud.png" alt="cloud">
+         <div class="title-text">
+            <h2> Marketting Today</h2>
+            <h1>The #1 SEO Services Company with 600+ Case Studies</h1>
+            <h2><span class="pro">We help you succeed online with proven SEO methods.</span></h2>
+         </div>
+         <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+         <img class="mountain " src="images/mountain.png" alt="mountain-img">
+      </div>
+      <div class="middle-container">
+         <div class="profile">
+            <img class="mountain " src="googlework.jpg" alt="firkiye-profile-img">
+            <h2>We Tackle the Most Competitive Keywords.</h2>
+            <p class="intro">Keyword research is one of the most important steps in SEO. Use the wrong keywords and you’ll show up in irrelevant searches or not at all. But if you use the right keywords, you can dominate a competitive market and take your business to the next level.</p>
+         </div>
+         <hr>
+         <div class="skills">
+            <h2> Scientifically Tested Search Engine Optimization</h2>
+            <div class="skill-row">
+               <img class="code-img" src="#" alt="code-img">
+               <h3> Design & Development </h3>
+               <p>We don’t guess, assume, or hope for the best with your SEO. We develop our SEO strategies around thorough research and scientifically tested data. And we prove our results every time.
 
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
-</head>
-
-<body>
-  <header>
-    <h1>Student Bio</h1>
-  </header>
-
-  <div class ="container">
-
-    <section id = "mainbio">
-
-      <h2>Victoria Arda</h2>
-
-      <img src="data:image/jpeg;base64,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" alt="Victoria">
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tortor justo, malesuada quis nunc id, porta euismod nisi. Nulla nec elit odio. Pellentesque sagittis vehicula arcu, quis convallis magna dignissim quis. Curabitur non purus enim. Nunc diam risus, aliquet at pharetra eget, blandit sed justo. Morbi sit amet interdum justo, interdum luctus eros. Nam a pretium turpis, nec auctor quam. Cras consequat turpis a libero placerat, sed vulputate odio lacinia. <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-    </section>
-
-    <section class="contactinfo">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </section>
-  </div>
-
-</body>
-
+                Some SEO companies just want to mislead you with theories and jargon. We want to see you succeed. Our team of SEO specialists analyzes every aspect of your business, website, and customer base before crafting a custom strategy that’s based on hard data so we know it’s going to get you the best results.
+                
+                Contact us today to see how our SEO services will maximize your revenue. </p>
+            </div>
+            <div class="skill-row">
+               <img class="chilli-img" src="images/chillies.png" alt="chillies-img">
+               <h3>600+ Client Case Studies Proving Our Results-driven Approach</h3>
+               <p> The #1 SEO Services Company with 600+ Case Studies</p>
+            </div>
+         </div>
+         <hr>
+         <div class="contact-me">
+            <h2>Get in Touch</h2>
+            <h3>If you love hot wingsa as much as i do </h3>
+            <p class="contact-message"> <strong>so many SEO companies out there, how do you know which one to choose?</strong> 
+              <br>
+              Watch this brief video to learn more.</p>
+            <a class="btn" href="mailTo:info@markettingtoday.com">CONTACT ME</a>
+         </div>
+      </div>
+      <div class="bottom-container">
+         <a class="footer-link" href="#">Linkedin</a>
+         <a class="footer-link" href="#">Twitter</a>
+         <a class="footer-link" href="#">Website</a>
+         <p class="copyright"> 2020 Victoria Arda @ Marketting Today.</p>
+      </div>
+   </body>
 </html>
